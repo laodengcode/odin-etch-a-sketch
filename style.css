@@ -9,7 +9,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: fit-content;
     padding: 0;
     border: 2px solid blueviolet;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 
 .row-container {
     display: flex;
-    width: 300px;
+    max-width: 320px;
     justify-content: center;
     align-items: center;
     margin: 0;
