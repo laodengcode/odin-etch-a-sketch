@@ -1,0 +1,42 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 0;
+    border: 2px solid blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-container {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.element {
+    width: 16px;
+    aspect-ratio: 1/1;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
