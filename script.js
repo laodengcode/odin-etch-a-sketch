@@ -47,7 +47,6 @@ function changeColor(event) {
 
     opacity += 0.1;
     Math.round(opacity * 10) / 10;
-    console.log(opacity);
     event.target.style.opacity = opacity;
 }
 
